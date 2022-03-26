@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5185a2740e.js" crossorigin="anonymous"></script>
+    <title>Isaac Dolphin | Home</title>
+    <link rel="stylesheet" href="/styling/app.css">
+</head>
+<body>
+    <div class="maintenance-banner">
+        <ul>
+            <li>
+                The rest of this website is currently under maintenance. Monitor it's progress <a href="https://github.com/mrIsaacDolphin" target="_blank">here</a>.
+            </li>
+            <i class="fa-solid fa-xmark"></i>
+        </ul>
+    </div>
+    <div class="flex-wrapper">
+        <div class="landing-page-wrapper">
+            <div class="brand" onclick="toIndex()">Isaac &nbsp;Dolphin.</div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/isaac-dolphin-651057190/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/mrIsaacDolphin" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="/javascript/dismissBanner.js"></script>
+    <script>
+        /* https://stackoverflow.com/questions/7554108/javascript-window-location-in-new-tab */
+        function toIndex() {
+            window.open('https://support.wwf.org.uk', "_blank")
+        }
+    </script>
+</body>
+</html>
